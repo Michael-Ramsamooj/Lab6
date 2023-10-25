@@ -8,7 +8,7 @@ def encode(number):
 
 def main():
     x = 1
-    if x == 1:
+    while x:
         print("Menu\n-------------\n1. Encode\n2. Decode\n3. Quit")
         user_input = int(input("Please enter an option: "))
         if user_input == 1:
